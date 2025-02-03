@@ -6,7 +6,6 @@ Effortlessly bypass DataDome CAPTCHAs with Bright Data's advanced CAPTCHA-solvin
 
 Bright Data’s CAPTCHA Solver is a built-in feature of our [**Scraping Browser**](https://brightdata.com/products/scraping-browser) and [**Web Unlocker API**](https://brightdata.com/products/web-unlocker), offering a complete solution for handling even the most complex CAPTCHA challenges.  
 
----
 
 ## Features  
 - **Rapid CAPTCHA Solving**: Automatically solve DataDome CAPTCHAs with high accuracy and speed.  
@@ -16,8 +15,6 @@ Bright Data’s CAPTCHA Solver is a built-in feature of our [**Scraping Browser*
 - **Worldwide Geo-Coverage**: Unlock content from any global region with pinpoint precision.  
 - **Seamless Integration**: Works effortlessly with tools like Puppeteer, Playwright, and Selenium.  
 - **Event Monitoring**: Track CAPTCHA-solving events like detection, success, or failure.  
-
----
 
 ## Why Choose DataDome CAPTCHA Solver  
 
@@ -37,7 +34,6 @@ Our CAPTCHA Solver uses advanced AI-based logic to detect, analyze, and solve CA
 
 > **Pro Tip 💡**
 >> Already have a CAPTCHA-solving setup? Enhance it with our proxies for [Puppeteer](https://brightdata.com/integration/puppeteer), [Playwright](https://brightdata.com/integration/playwright), and [Selenium](https://brightdata.com/integration/selenium) to minimize CAPTCHA challenges.
----
 
 ## How It Works  
 
@@ -51,8 +47,6 @@ The CAPTCHA Solver automatically detects and resolves CAPTCHAs in real-time. Sim
 2. **Solve CAPTCHA**: Using AI-based logic, the solver resolves the CAPTCHA.  
 3. **Retry on Failure**: If solving fails, the system automatically retries with a new IP.  
 4. **Return Results**: Once solved, the system provides seamless access to the target site.  
-
----
 
 ## Supported CAPTCHA Types  
 
@@ -74,8 +68,6 @@ Bright Data’s CAPTCHA Solver supports a wide range of CAPTCHA types, including
 - [**Image CAPTCHA**](https://brightdata.com/products/web-unlocker/captcha-solver/image-captcha)
 - [**Text CAPTCHA**](https://brightdata.com/products/web-unlocker/captcha-solver/text-captcha)
 
----
-
 ## Advanced Customization  
 
 [Bright Data’s CAPTCHA Solver](https://github.com/luminati-io/Captcha-solver) allows for advanced customization to fine-tune solving logic for specific scenarios. See the example below. 
@@ -96,8 +88,6 @@ Track CAPTCHA-solving events to handle advanced use cases:
 - `Captcha.solveFinished`: CAPTCHA solved successfully.  
 - `Captcha.solveFailed`: CAPTCHA solving failed.  
 
----
-
 ## **Pricing**
 
 | **Plan**         | **Price (1K Results)** | **Monthly Cost** | **Description**                                  |  
@@ -110,16 +100,12 @@ Track CAPTCHA-solving events to handle advanced use cases:
 
 🚀 **SPECIAL OFFER**: Match your first deposit dollar-for-dollar up to **$500**!  
 
----
-
 ## **Why Developers Love DataDome CAPTCHA Solver**  
 - **Easy Integration**: Works seamlessly with Puppeteer, Playwright, and Selenium.  
 - **Advanced AI-Based Logic**: Handles retries, CAPTCHA solving, fingerprinting, IP rotation, and advanced headers automatically.  
 - **Built-in Browser**: No need to manage external browsers for JavaScript rendering.  
 - **Real-Time Insights**: Monitor network performance via a live dashboard.  
 - **Unmatched Support**: 24/7 global customer support with new features added daily.  
-
----
 
 ## **FAQ**  
 
@@ -134,5 +120,5 @@ Retries are automatically attempted. If problems persist, contact our 24/7 suppo
 
 ---
 
-### **Say Goodbye to DataDome CAPTCHAs**  
+## **Say Goodbye to DataDome CAPTCHAs**  
 Start your free trial today and experience seamless [DataDome CAPTCHA solving with Bright Data!](https://brightdata.com/products/web-unlocker/captcha-solver/datadome) 
