@@ -1,5 +1,7 @@
 # DataDome CAPTCHA Solver  
 
+[![Promo](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.com/products/web-unlocker/captcha-solver/datadome)
+
 Effortlessly bypass DataDome CAPTCHAs with Bright Data's advanced CAPTCHA-solving technology. Leverage machine-learning algorithms, [automated IP rotation](https://brightdata.com/solutions/rotating-proxies), and a robust proxy infrastructure to ensure seamless and consistent access to target sites.  
 
 Bright Data’s CAPTCHA Solver is a built-in feature of our [**Scraping Browser**](https://brightdata.com/products/scraping-browser) and [**Web Unlocker API**](https://brightdata.com/products/web-unlocker), offering a complete solution for handling even the most complex CAPTCHA challenges.  
@@ -98,8 +100,6 @@ Track CAPTCHA-solving events to handle advanced use cases:
 
 ## **Pricing**
 
-[![Promo](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.com/products/web-unlocker/captcha-solver) 
-
 | **Plan**         | **Price (1K Results)** | **Monthly Cost** | **Description**                                  |  
 |-------------------|------------------------|------------------|------------------------------------------------|  
 | **Pay-as-you-go** | $1.50                 | No commitment    | Ideal for ad-hoc scraping needs.               |  
@@ -107,6 +107,8 @@ Track CAPTCHA-solving events to handle advanced use cases:
 | **Business**      | $1.12                 | $999             | Suitable for large-scale scraping operations.  |  
 | **Premium**       | $1.05                 | $1,999           | Advanced features with priority support.       |  
 | **Enterprise**    | Custom Quote          | Contact Us       | Custom packages for top-tier business needs.   |  
+
+🚀 **SPECIAL OFFER**: Match your first deposit dollar-for-dollar up to **$500**!  
 
 ---
 
