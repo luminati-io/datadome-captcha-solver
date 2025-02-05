@@ -74,13 +74,49 @@ Bright Data’s CAPTCHA Solver supports a wide range of CAPTCHA types, including
 
 ### **Custom Options for DataDome Challenges**  
 ```javascript
-const ddOptions = {
-  timeout: 40000,
-  selector: '#datadome-captcha',
-  check_timeout: 300,
-  success_selector: '#captcha-success',
-  wait_networkidle: { timeout: 500 }
-};
+// Default options for solving DataDome CAPTCHA challenges
+function getCaptchaOptions(customOptions = {}) {
+  const defaultOptions = {
+    timeout: 30000, // Maximum time (in ms) to wait for CAPTCHA solving
+    selector: '#datadome-captcha', // CSS selector for the CAPTCHA element
+    check_timeout: 500, // Interval (in ms) to check the CAPTCHA's status
+    success_selector: '#captcha-success', // CSS selector for the success confirmation element
+    wait_networkidle: { timeout: 1000 }, // Wait until the network is idle for 1 second
+    debug: false // Debug mode (disabled by default)
+  };
+
+  return { ...defaultOptions, ...customOptions };
+}
+
+// Example usage
+const ddOptions = getCaptchaOptions({
+  timeout: 40000, // Override default timeout
+  wait_networkidle: { timeout: 500 }, // Override network idle timeout
+  debug: true // Enable debug mode
+});
+
+// Debugging support
+if (ddOptions.debug) {
+  console.log('CAPTCHA-solving options:', ddOptions);
+}
+
+// Validate selectors
+if (!document.querySelector(ddOptions.selector)) {
+  throw new Error(`CAPTCHA element not found using selector: ${ddOptions.selector}`);
+}
+
+if (!document.querySelector(ddOptions.success_selector)) {
+  console.warn(`Success element not found using selector: ${ddOptions.success_selector}`);
+}
+
+// Error handling example
+try {
+  // Your CAPTCHA-solving logic here
+  solveCaptcha(ddOptions);
+} catch (error) {
+  console.error('Failed to solve CAPTCHA:', error.message);
+  // Handle the error (e.g., retry logic, logging, etc.)
+}
 ```
 ## **Event Monitoring**  
 Track CAPTCHA-solving events to handle advanced use cases:  
